@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class CharOccurcheck {
@@ -12,7 +13,7 @@ public class CharOccurcheck {
 		 * for(int i=0;i<strarray.length-1;i++) { System.out.println(strarray[i]); }
 		 */
 		
-		Map<Character,Integer>countmap=new HashMap();
+		Map<Character,Integer>countmap=new LinkedHashMap();
 		
 		for(int i=0;i<strarray.length-1;i++)
 		{
