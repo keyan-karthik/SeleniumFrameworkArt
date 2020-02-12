@@ -15,7 +15,7 @@ public class CharOccurcheck {
 		
 		Map<Character,Integer>countmap=new LinkedHashMap();
 		
-		for(int i=0;i<strarray.length-1;i++)
+		for(int i=0;i<strarray.length;i++)
 		{
 			if(countmap.containsKey(strarray[i]))
 			{
