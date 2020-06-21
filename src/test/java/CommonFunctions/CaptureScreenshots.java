@@ -27,8 +27,9 @@ public class CaptureScreenshots {
 	BufferedImage source=robot.createScreenCapture(screenRect);
 	//String screenshotpath="target\\Screenshots";
 	
-	File destination=new File("screenshotpath\\filename");
-	ImageIO.write(source, "png", destination);
+	File destination=new File(screenshotpath+"\\"+filename+".jpg");
+	//ImageIO.write(source, "png", destination);
+	ImageIO.write(source,"jpg",destination);
 	
 
    }
