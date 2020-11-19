@@ -63,6 +63,7 @@ public class Commonfunctions {
 	public void closebrowser()
 	{
 		driver.quit();
+		logger.info("Browser Closed");
 	}
 
 }

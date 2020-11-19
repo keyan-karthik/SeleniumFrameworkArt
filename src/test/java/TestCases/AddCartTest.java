@@ -4,6 +4,7 @@ package TestCases;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -15,16 +16,19 @@ import PageObjects.LoginPageObjects;
 import PageObjects.MenuPageObjects;
 
 public class AddCartTest extends Commonfunctions {
-
+ 
+	static Logger logger=Logger.getLogger(AddCartTest.class);
 			
 	@Test()
 	public void AddCartTestCase() throws InterruptedException
 	{
+		logger.info("AddCartTestCase started");
 		/*
 		 * Logintest lloogin=new Logintest(); lloogin.logintestcase();
 		 */		Thread.sleep(30000);
 		PageFactory.initElements(driver, HomePageObjects.class);
 		HomePageObjects.lnk_hotelsaravana.click();
+		logger.info("Hotel Saravana Clicked");
 		System.out.println("hotel clicked");
 		Thread.sleep(8000);
 
