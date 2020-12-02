@@ -21,4 +21,7 @@ public class MenuPageObjects {
 
 	@FindBy(xpath="//a[text()=' Checkout ']")
 	public static WebElement btncheckout;
+	
+	@FindBy(xpath="//a[text()=' Logout ']")
+	public static WebElement logoutmenu;
 }

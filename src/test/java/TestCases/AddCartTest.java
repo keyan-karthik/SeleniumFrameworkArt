@@ -19,7 +19,7 @@ public class AddCartTest extends Commonfunctions {
  
 	static Logger logger=Logger.getLogger(AddCartTest.class);
 			
-	@Test()
+	@Test(priority=2)
 	public void AddCartTestCase() throws InterruptedException
 	{
 		logger.info("AddCartTestCase started");
@@ -47,10 +47,10 @@ public class AddCartTest extends Commonfunctions {
 			    break;
 			} }
 		       System.out.println("price clicked");
-		       //Thread.sleep(20000);
+		       Thread.sleep(20000);
 		       MenuPageObjects.dropdownmenu.click();
 		       MenuPageObjects.cartmenu.click();
-		       //Thread.sleep(15000);
+		       Thread.sleep(15000);
 		       MenuPageObjects.btncheckout.click();
 		       Thread.sleep(5000);
 		       System.out.println("item added to cart and checkout");

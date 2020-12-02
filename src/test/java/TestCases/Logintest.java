@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -17,11 +17,14 @@ import PageObjects.LoginPageObjects;
 
 public class Logintest extends Commonfunctions {
 	
-	@Test 
+	static Logger logger=Logger.getLogger(Logintest.class);
+	
+	@Test(priority=1)
 	public void logintestcase() throws InterruptedException, IOException
 	{
 	 
-		FileInputStream fis=new FileInputStream("C:\\Users\\karthik\\Documents\\TestData.xlsx");
+		logger.info("LoginTestCase started");
+		FileInputStream fis=new FileInputStream("./TestData.xlsx");
 		//Workbook workBook = null;
 		XSSFWorkbook workBook=new XSSFWorkbook(fis);
 		Sheet sheet=null;
@@ -44,7 +47,7 @@ public class Logintest extends Commonfunctions {
 		  LoginPageObjects.txt_email.sendKeys(uname);
 		  LoginPageObjects.txt_password.sendKeys(pass);
 		 
-		
+		logger.info("user credentials entered");
 	    //Thread.sleep(10000);
 	    LoginPageObjects.btn_login.click();
 	}

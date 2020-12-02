@@ -15,7 +15,7 @@ import PageObjects.RegistrationPageObjects;
 
 public class Registrationtest extends Commonfunctions {
 	
-	@Test
+	@Test(priority=0,enabled=false)
 	public void Registrationtestcase() throws InterruptedException
 	{
 		Thread.sleep(10000);
