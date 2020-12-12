@@ -12,6 +12,14 @@
     <artifactId>log4j</artifactId>
     <version>1.2.16</version>
 </dependency>
+<!-- Below dependency is for cucumber java -->
+<dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+            
+        </dependency>
+  
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
@@ -24,6 +32,29 @@
     <artifactId>selenium-server</artifactId>
     <version>3.141.59</version>
 </dependency>
+
+<!--  Below dependecy is for cucumber Junit -->
+<dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.5</version>
+            
+        </dependency>
+        
+ <!--  Below dependency is cucumber testNG -->
+ <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<!-- <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>2.0.0</version>
+</dependency>
+ --> <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>1.2.5</version>
+</dependency>
+        
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
     <groupId>org.apache.poi</groupId>

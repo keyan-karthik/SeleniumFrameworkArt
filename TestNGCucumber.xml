@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Shopping Test suite">
+<test name="LoginTes">
+<classes>
+<class name="runner.Runner">
+</class>
+</classes>
+</test>
+</suite>
