@@ -11,7 +11,7 @@ public class Logout extends Commonfunctions {
 	@Test(priority=3)
 	public void LogoutTestCase()
 	{
-		
+		extentTest=extentReport.createTest("verify logout");
 		PageFactory.initElements(driver, MenuPageObjects.class);
 		MenuPageObjects.dropdownmenu.click();
 		MenuPageObjects.logoutmenu.click();

@@ -23,6 +23,7 @@ public class AddCartTest extends Commonfunctions {
 	public void AddCartTestCase() throws InterruptedException
 	{
 		logger.info("AddCartTestCase started");
+		extentTest=extentReport.createTest("verify AddCartTest");
 		/*
 		 * Logintest lloogin=new Logintest(); lloogin.logintestcase();
 		 */		Thread.sleep(30000);

@@ -10,3 +10,9 @@
 2020-12-02 09:55:53 INFO  AddCartTest:25 - AddCartTestCase started
 2020-12-02 09:56:23 INFO  AddCartTest:31 - Hotel Saravana Clicked
 2020-12-02 09:57:20 INFO  Commonfunctions:66 - Browser Closed
+2020-12-15 22:43:42 INFO  Commonfunctions:57 - Launching Browser
+2020-12-15 22:43:43 INFO  Logintest:27 - LoginTestCase started
+2020-12-15 22:44:09 INFO  Logintest:51 - user credentials entered
+2020-12-15 22:44:10 INFO  AddCartTest:25 - AddCartTestCase started
+2020-12-15 22:44:40 INFO  AddCartTest:32 - Hotel Saravana Clicked
+2020-12-15 22:45:38 INFO  Commonfunctions:76 - Browser Closed

@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Shopping Test suite" duration-ms="113126" started-at="2020-12-02T09:55:26 IST" finished-at="2020-12-02T09:57:19 IST">
+  <suite name="Shopping Test suite" duration-ms="114749" started-at="2020-12-15T22:43:42 IST" finished-at="2020-12-15T22:45:37 IST">
     <groups>
     </groups>
-    <test name="RegistrationTest" duration-ms="110" started-at="2020-12-02T09:55:26 IST" finished-at="2020-12-02T09:55:26 IST">
+    <test name="RegistrationTest" duration-ms="114" started-at="2020-12-15T22:43:42 IST" finished-at="2020-12-15T22:43:42 IST">
     </test> <!-- RegistrationTest -->
-    <test name="LoginTest" duration-ms="26710" started-at="2020-12-02T09:55:26 IST" finished-at="2020-12-02T09:55:53 IST">
+    <test name="LoginTest" duration-ms="27308" started-at="2020-12-15T22:43:42 IST" finished-at="2020-12-15T22:44:10 IST">
       <class name="TestCases.Logintest">
-        <test-method status="PASS" signature="logintestcase()[pri:1, instance:TestCases.Logintest@c46bcd4]" name="logintestcase" duration-ms="26522" started-at="2020-12-02T09:55:26 IST" finished-at="2020-12-02T09:55:53 IST">
+        <test-method status="PASS" signature="logintestcase()[pri:1, instance:TestCases.Logintest@6b9651f3]" name="logintestcase" duration-ms="27057" started-at="2020-12-15T22:43:43 IST" finished-at="2020-12-15T22:44:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintestcase -->
-        <test-method status="PASS" signature="failcheck(org.testng.ITestResult)[pri:0, instance:TestCases.Logintest@c46bcd4]" name="failcheck" is-config="true" duration-ms="7" started-at="2020-12-02T09:55:53 IST" finished-at="2020-12-02T09:55:53 IST">
+        <test-method status="PASS" signature="failcheck(org.testng.ITestResult)[pri:0, instance:TestCases.Logintest@6b9651f3]" name="failcheck" is-config="true" duration-ms="53" started-at="2020-12-15T22:44:10 IST" finished-at="2020-12-15T22:44:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logintestcase status=SUCCESS method=Logintest.logintestcase()[pri:1, instance:TestCases.Logintest@c46bcd4] output={null}]]]>
+                <![CDATA[[TestResult name=logintestcase status=SUCCESS method=Logintest.logintestcase()[pri:1, instance:TestCases.Logintest@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -26,17 +26,17 @@
         </test-method> <!-- failcheck -->
       </class> <!-- TestCases.Logintest -->
     </test> <!-- LoginTest -->
-    <test name="AddCartTest" duration-ms="85365" started-at="2020-12-02T09:55:53 IST" finished-at="2020-12-02T09:57:18 IST">
+    <test name="AddCartTest" duration-ms="86022" started-at="2020-12-15T22:44:10 IST" finished-at="2020-12-15T22:45:36 IST">
       <class name="TestCases.AddCartTest">
-        <test-method status="PASS" signature="AddCartTestCase()[pri:2, instance:TestCases.AddCartTest@436e852b]" name="AddCartTestCase" duration-ms="85293" started-at="2020-12-02T09:55:53 IST" finished-at="2020-12-02T09:57:18 IST">
+        <test-method status="PASS" signature="AddCartTestCase()[pri:2, instance:TestCases.AddCartTest@1500955a]" name="AddCartTestCase" duration-ms="85962" started-at="2020-12-15T22:44:10 IST" finished-at="2020-12-15T22:45:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCartTestCase -->
-        <test-method status="PASS" signature="failcheck(org.testng.ITestResult)[pri:0, instance:TestCases.AddCartTest@436e852b]" name="failcheck" is-config="true" duration-ms="2" started-at="2020-12-02T09:57:18 IST" finished-at="2020-12-02T09:57:18 IST">
+        <test-method status="PASS" signature="failcheck(org.testng.ITestResult)[pri:0, instance:TestCases.AddCartTest@1500955a]" name="failcheck" is-config="true" duration-ms="2" started-at="2020-12-15T22:45:36 IST" finished-at="2020-12-15T22:45:36 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddCartTestCase status=SUCCESS method=AddCartTest.AddCartTestCase()[pri:2, instance:TestCases.AddCartTest@436e852b] output={null}]]]>
+                <![CDATA[[TestResult name=AddCartTestCase status=SUCCESS method=AddCartTest.AddCartTestCase()[pri:2, instance:TestCases.AddCartTest@1500955a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -45,28 +45,28 @@
         </test-method> <!-- failcheck -->
       </class> <!-- TestCases.AddCartTest -->
     </test> <!-- AddCartTest -->
-    <test name="LogOutTest" duration-ms="545" started-at="2020-12-02T09:57:18 IST" finished-at="2020-12-02T09:57:19 IST">
+    <test name="LogOutTest" duration-ms="826" started-at="2020-12-15T22:45:36 IST" finished-at="2020-12-15T22:45:37 IST">
       <class name="TestCases.Logout">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:TestCases.Logout@6b57696f]" name="launchbrowser" is-config="true" duration-ms="20024" started-at="2020-12-02T09:55:06 IST" finished-at="2020-12-02T09:55:26 IST">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:TestCases.Logout@cb51256]" name="launchbrowser" is-config="true" duration-ms="37987" started-at="2020-12-15T22:43:04 IST" finished-at="2020-12-15T22:43:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="LogoutTestCase()[pri:3, instance:TestCases.Logout@6b57696f]" name="LogoutTestCase" duration-ms="520" started-at="2020-12-02T09:57:18 IST" finished-at="2020-12-02T09:57:19 IST">
+        <test-method status="PASS" signature="LogoutTestCase()[pri:3, instance:TestCases.Logout@cb51256]" name="LogoutTestCase" duration-ms="810" started-at="2020-12-15T22:45:36 IST" finished-at="2020-12-15T22:45:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutTestCase -->
-        <test-method status="PASS" signature="failcheck(org.testng.ITestResult)[pri:0, instance:TestCases.Logout@6b57696f]" name="failcheck" is-config="true" duration-ms="5" started-at="2020-12-02T09:57:19 IST" finished-at="2020-12-02T09:57:19 IST">
+        <test-method status="PASS" signature="failcheck(org.testng.ITestResult)[pri:0, instance:TestCases.Logout@cb51256]" name="failcheck" is-config="true" duration-ms="1" started-at="2020-12-15T22:45:37 IST" finished-at="2020-12-15T22:45:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LogoutTestCase status=SUCCESS method=Logout.LogoutTestCase()[pri:3, instance:TestCases.Logout@6b57696f] output={null}]]]>
+                <![CDATA[[TestResult name=LogoutTestCase status=SUCCESS method=Logout.LogoutTestCase()[pri:3, instance:TestCases.Logout@cb51256] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failcheck -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TestCases.Logout@6b57696f]" name="closebrowser" is-config="true" duration-ms="1486" started-at="2020-12-02T09:57:19 IST" finished-at="2020-12-02T09:57:20 IST">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TestCases.Logout@cb51256]" name="closebrowser" is-config="true" duration-ms="3182" started-at="2020-12-15T22:45:37 IST" finished-at="2020-12-15T22:45:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

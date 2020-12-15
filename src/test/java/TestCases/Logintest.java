@@ -23,6 +23,7 @@ public class Logintest extends Commonfunctions {
 	public void logintestcase() throws InterruptedException, IOException
 	{
 	 
+		extentTest=extentReport.createTest("verify LoginTest");
 		logger.info("LoginTestCase started");
 		FileInputStream fis=new FileInputStream("./TestData.xlsx");
 		//Workbook workBook = null;
