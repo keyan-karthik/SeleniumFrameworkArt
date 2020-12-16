@@ -11,6 +11,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import CommonFunctions.Commonfunctions;
 import PageObjects.HomePageObjects;
 import PageObjects.LoginPageObjects;
@@ -50,7 +52,8 @@ public class Logintest extends Commonfunctions {
 		 
 		logger.info("user credentials entered");
 	    //Thread.sleep(10000);
-	    LoginPageObjects.btn_login.click();
+	   // LoginPageObjects.btn_login.click();
+	    extentTest.log(Status.PASS,"pass");
 	}
 
 }

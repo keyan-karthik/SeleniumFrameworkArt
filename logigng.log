@@ -16,3 +16,35 @@
 2020-12-15 22:44:10 INFO  AddCartTest:25 - AddCartTestCase started
 2020-12-15 22:44:40 INFO  AddCartTest:32 - Hotel Saravana Clicked
 2020-12-15 22:45:38 INFO  Commonfunctions:76 - Browser Closed
+2020-12-16 10:53:24 INFO  Commonfunctions:57 - Launching Browser
+2020-12-16 10:53:25 INFO  Logintest:27 - LoginTestCase started
+2020-12-16 10:53:51 INFO  Logintest:51 - user credentials entered
+2020-12-16 10:53:52 INFO  AddCartTest:25 - AddCartTestCase started
+2020-12-16 10:54:22 INFO  AddCartTest:32 - Hotel Saravana Clicked
+2020-12-16 10:55:20 INFO  Commonfunctions:77 - Browser Closed
+2020-12-16 11:02:01 INFO  Commonfunctions:57 - Launching Browser
+2020-12-16 11:02:01 INFO  Logintest:27 - LoginTestCase started
+2020-12-16 11:02:27 INFO  Logintest:51 - user credentials entered
+2020-12-16 11:02:27 INFO  AddCartTest:25 - AddCartTestCase started
+2020-12-16 11:04:01 INFO  Commonfunctions:77 - Browser Closed
+2020-12-16 11:15:34 INFO  Commonfunctions:57 - Launching Browser
+2020-12-16 11:15:35 INFO  Logintest:29 - LoginTestCase started
+2020-12-16 11:16:01 INFO  Logintest:53 - user credentials entered
+2020-12-16 11:16:01 INFO  AddCartTest:27 - AddCartTestCase started
+2020-12-16 11:16:32 INFO  AddCartTest:34 - Hotel Saravana Clicked
+2020-12-16 11:17:29 INFO  Commonfunctions:77 - Browser Closed
+2020-12-16 11:25:49 INFO  Commonfunctions:58 - Launching Browser
+2020-12-16 11:25:50 INFO  Logintest:29 - LoginTestCase started
+2020-12-16 11:26:16 INFO  Logintest:53 - user credentials entered
+2020-12-16 11:26:16 INFO  AddCartTest:27 - AddCartTestCase started
+2020-12-16 11:27:49 INFO  Commonfunctions:78 - Browser Closed
+2020-12-16 12:13:53 INFO  Commonfunctions:58 - Launching Browser
+2020-12-16 12:13:53 INFO  Logintest:29 - LoginTestCase started
+2020-12-16 12:14:19 INFO  Logintest:53 - user credentials entered
+2020-12-16 12:14:20 INFO  AddCartTest:27 - AddCartTestCase started
+2020-12-16 12:15:53 INFO  Commonfunctions:78 - Browser Closed
+2020-12-16 12:23:48 INFO  Commonfunctions:58 - Launching Browser
+2020-12-16 12:23:49 INFO  Logintest:29 - LoginTestCase started
+2020-12-16 12:24:16 INFO  Logintest:53 - user credentials entered
+2020-12-16 12:24:16 INFO  AddCartTest:27 - AddCartTestCase started
+2020-12-16 12:25:49 INFO  Commonfunctions:78 - Browser Closed

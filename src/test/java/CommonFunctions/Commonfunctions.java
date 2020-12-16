@@ -20,6 +20,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 
@@ -64,7 +65,8 @@ public class Commonfunctions {
 	  public void failcheck(ITestResult result) throws AWTException,IOException {
 		  if(ITestResult.FAILURE==result.getStatus()) {
 	        CaptureScreenshots.takeScreenshot(driver,result.getName());
-	  
+	        extentTest.addScreenCaptureFromPath("./target\\Screenshot"+"\\"+result.getName()+".jpg");
+	        extentTest.log(Status.FAIL, result.getThrowable());
 	  } }
 	 
 	
