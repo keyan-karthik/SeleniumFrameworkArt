@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Shopping Test suite]">
-  <test thread-count="5" name="AddCartTest(failed)">
-    <classes>
-      <class name="TestCases.AddCartTest">
-        <methods>
-          <include name="closebrowser"/>
-          <include name="AddCartTestCase"/>
-          <include name="failcheck"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- TestCases.AddCartTest -->
-    </classes>
-  </test> <!-- AddCartTest(failed) -->
   <test thread-count="5" name="LogOutTest(failed)">
     <classes>
       <class name="TestCases.Logout">

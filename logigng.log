@@ -48,3 +48,27 @@
 2020-12-16 12:24:16 INFO  Logintest:53 - user credentials entered
 2020-12-16 12:24:16 INFO  AddCartTest:27 - AddCartTestCase started
 2020-12-16 12:25:49 INFO  Commonfunctions:78 - Browser Closed
+2021-04-10 19:07:18 INFO  Commonfunctions:58 - Launching Browser
+2021-04-10 19:07:19 INFO  Logintest:29 - LoginTestCase started
+2021-04-10 19:07:48 INFO  Logintest:53 - user credentials entered
+2021-04-10 19:08:24 INFO  Commonfunctions:78 - Browser Closed
+2021-04-10 19:12:37 INFO  Commonfunctions:58 - Launching Browser
+2021-04-10 19:12:38 INFO  Logintest:29 - LoginTestCase started
+2021-04-10 19:13:05 INFO  Logintest:53 - user credentials entered
+2021-04-10 19:13:21 INFO  Commonfunctions:78 - Browser Closed
+2021-04-10 19:20:30 INFO  Commonfunctions:58 - Launching Browser
+2021-04-10 19:20:31 INFO  Logintest:29 - LoginTestCase started
+2021-04-10 19:20:58 INFO  Logintest:53 - user credentials entered
+2021-04-10 19:21:19 INFO  Commonfunctions:78 - Browser Closed
+2021-04-29 16:15:02 INFO  Commonfunctions:58 - Launching Browser
+2021-04-29 16:15:03 INFO  Logintest:29 - LoginTestCase started
+2021-04-29 16:15:31 INFO  Logintest:53 - user credentials entered
+2021-04-29 16:15:52 INFO  Commonfunctions:78 - Browser Closed
+2021-05-03 21:49:33 INFO  Commonfunctions:58 - Launching Browser
+2021-05-03 21:49:35 INFO  Logintest:29 - LoginTestCase started
+2021-05-03 21:50:09 INFO  Logintest:53 - user credentials entered
+2021-05-03 21:50:30 INFO  Commonfunctions:78 - Browser Closed
+2021-05-04 08:51:16 INFO  Commonfunctions:58 - Launching Browser
+2021-05-04 08:51:17 INFO  Logintest:29 - LoginTestCase started
+2021-05-04 08:51:44 INFO  Logintest:53 - user credentials entered
+2021-05-04 08:52:08 INFO  Commonfunctions:78 - Browser Closed

@@ -51,8 +51,8 @@ public class Logintest extends Commonfunctions {
 		  LoginPageObjects.txt_password.sendKeys(pass);
 		 
 		logger.info("user credentials entered");
-	    //Thread.sleep(10000);
-	   // LoginPageObjects.btn_login.click();
+	    Thread.sleep(10000);
+	    LoginPageObjects.btn_login.click();
 	    extentTest.log(Status.PASS,"pass");
 	}
 

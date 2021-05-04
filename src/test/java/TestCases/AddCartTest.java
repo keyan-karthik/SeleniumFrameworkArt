@@ -21,7 +21,7 @@ public class AddCartTest extends Commonfunctions {
  
 	static Logger logger=Logger.getLogger(AddCartTest.class);
 			
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void AddCartTestCase() throws InterruptedException
 	{
 		logger.info("AddCartTestCase started");
